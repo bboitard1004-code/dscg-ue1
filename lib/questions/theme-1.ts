@@ -1,4 +1,4 @@
-import type { Question } from './types';
+import type { Question } from '../types';
 
 // ╔══════════════════════════════════════════════════════════════════╗
 // ║ THÈME 1 — L'ENTREPRISE ET SON ENVIRONNEMENT                       ║
