@@ -67,7 +67,7 @@ export default function GameClient({
     const subTitle = sub === 'all' ? 'Tout le thème' : (theme.subThemes.find(s => s.id === sub)?.title ?? sub);
     const total = questions.length;
     return (
-      <div className="p-8 max-w-4xl mx-auto animate-fade-up">
+      <div className="p-4 sm:p-6 lg:p-8 max-w-4xl mx-auto animate-fade-up">
         <Link href={`/cours/${theme.id}`} className="inline-flex items-center gap-1.5 text-xs text-ink-500 hover:text-navy-700 mb-6">
           <ArrowLeft size={12} /> Retour au cours
         </Link>
@@ -125,7 +125,7 @@ export default function GameClient({
     const pct = Math.round((correct / shuffled.length) * 100);
     const verdict = pct >= 80 ? 'Excellent 🎓' : pct >= 60 ? 'Bonne base 📘' : 'Encore un effort 💪';
     return (
-      <div className="p-8 max-w-2xl mx-auto animate-fade-up">
+      <div className="p-4 sm:p-6 lg:p-8 max-w-2xl mx-auto animate-fade-up">
         <div className="card p-10 text-center">
           <Sparkles className="mx-auto mb-4 text-navy-700" size={36} />
           <h2 className="display text-4xl font-extrabold text-navy-900">{verdict}</h2>
@@ -153,7 +153,7 @@ export default function GameClient({
 
   // ─── Game screen ──────────────────────────────────────────────────
   return (
-    <div className="p-8 max-w-3xl mx-auto animate-fade-up">
+    <div className="p-4 sm:p-6 lg:p-8 max-w-3xl mx-auto animate-fade-up">
       <div className="flex items-center justify-between mb-4">
         <button onClick={() => { if (confirm('Quitter la session en cours ?')) setStarted(false); }} className="text-xs text-ink-500 hover:text-navy-700 inline-flex items-center gap-1.5">
           <ArrowLeft size={12} /> Quitter

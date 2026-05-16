@@ -15,7 +15,7 @@ export default function CoursePage({ params }: { params: { theme: string } }) {
   const totalQ = countByTheme(theme.id);
 
   return (
-    <div className="p-8 max-w-5xl mx-auto animate-fade-up">
+    <div className="p-4 sm:p-6 lg:p-8 max-w-5xl mx-auto animate-fade-up">
       <Link href="/dashboard" className="inline-flex items-center gap-1.5 text-xs text-ink-500 hover:text-navy-700 mb-6">
         <ArrowLeft size={12} /> Retour au tableau de bord
       </Link>

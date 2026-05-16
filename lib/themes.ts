@@ -27,7 +27,7 @@ export const THEMES: Theme[] = [
     title: "L'entreprise et son environnement",
     subtitle: "Contrats, concurrence, propriété intellectuelle, pénal des affaires, fiscalité & RSE",
     accent: '#173d75',
-    pdfFile: '/data/theme-1.pdf',
+    pdfFile: 'https://tgwzenaizjyplztsgokj.supabase.co/storage/v1/object/public/pdfs/theme-1.pdf',
     icon: 'Scale',
     subThemes: [
       { id: 'contrats', title: 'Le droit des contrats', pages: 29,
@@ -78,7 +78,7 @@ export const THEMES: Theme[] = [
     title: "Droit des sociétés approfondi",
     subtitle: "SARL • SA • SAS • SCA • SNC — Constitution à dissolution",
     accent: '#1e4f93',
-    pdfFile: '/data/theme-2.pdf',
+    pdfFile: 'https://tgwzenaizjyplztsgokj.supabase.co/storage/v1/object/public/pdfs/theme-2.pdf',
     icon: 'Building2',
     subThemes: [
       { id: 'regles-communes', title: 'Règles communes à toutes les sociétés', pages: 10,
@@ -101,7 +101,7 @@ export const THEMES: Theme[] = [
     title: "Pérennité, transmission, droit social & fiscalité de groupe",
     subtitle: "Entreprise en difficulté • Transmission (Dutreil) • Droit social et fiscalité de groupe",
     accent: '#2563b2',
-    pdfFile: '/data/theme-3.pdf',
+    pdfFile: 'https://tgwzenaizjyplztsgokj.supabase.co/storage/v1/object/public/pdfs/theme-3.pdf',
     icon: 'Network',
     subThemes: [
       { id: 'difficulte', title: 'L\'entreprise en difficulté', pages: 22,
@@ -135,7 +135,7 @@ export const THEMES: Theme[] = [
     title: "Associations, fondations et fonds de dotation",
     subtitle: "Loi 1901 • Fiscalité des associations • FRUP • Fondation d'entreprise • Mécénat",
     accent: '#4d80c7',
-    pdfFile: '/data/theme-4.pdf',
+    pdfFile: 'https://tgwzenaizjyplztsgokj.supabase.co/storage/v1/object/public/pdfs/theme-4.pdf',
     icon: 'HeartHandshake',
     subThemes: [
       { id: 'associations', title: 'Les associations', pages: 5,

@@ -40,7 +40,7 @@ export default async function DashboardPage() {
   })();
 
   return (
-    <div className="p-8 max-w-7xl mx-auto animate-fade-up">
+    <div className="p-4 sm:p-6 lg:p-8 max-w-7xl mx-auto animate-fade-up">
       <header className="mb-8">
         <p className="text-xs uppercase tracking-widest text-ink-500">{greet}</p>
         <h1 className="display text-4xl md:text-5xl font-extrabold mt-1 text-navy-900">
