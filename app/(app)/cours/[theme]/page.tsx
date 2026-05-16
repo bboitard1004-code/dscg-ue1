@@ -38,7 +38,7 @@ export default function CoursePage({ params }: { params: { theme: string } }) {
         </div>
       </header>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mb-10">
         <Link href={`/jeux/${theme.id}`} className="card p-5 hover:border-navy-500 hover:shadow-md transition group">
           <Gamepad2 size={24} className="text-navy-700" />
           <p className="display text-xl font-bold mt-2 text-navy-900">Tous les minijeux</p>
