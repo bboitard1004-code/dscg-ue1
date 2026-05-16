@@ -167,7 +167,7 @@ export default function GameClient({
         <div className="h-full transition-all duration-500 bg-navy-700" style={{ width: `${((idx + 1) / shuffled.length) * 100}%` }} />
       </div>
 
-      {current && <QuestionCard q={current} onAnswer={recordAnswer} onNext={next} />}
+      {current && <QuestionCard key={idx} q={current} onAnswer={recordAnswer} onNext={next} />}
     </div>
   );
 }
